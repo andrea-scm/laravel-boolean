@@ -1,0 +1,23 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+//common
+@import 'common';
+
+//header
+@import 'header';
+
+//Body
+@import 'body';
+
+//body path /Carriere
+@import 'carriere-body';
+
+//footer
+@import 'footer';

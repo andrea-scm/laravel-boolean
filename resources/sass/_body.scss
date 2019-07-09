@@ -1,0 +1,67 @@
+//sezione principale
+.container{
+  height: 74vh;
+
+  & > .left_content{
+    width: 50%;
+    float: left;
+    & > h1{
+      color: $green;
+      font-size: 50px;
+    }
+
+    & > p{
+      color: black;
+      font-size: 20px;
+      width: 475px;
+      margin: 35px 0;
+    }
+
+    & > .button{
+      margin-left: 0;
+      padding: 15px 30px;
+    }
+  }
+
+
+  & > .right_content{
+    width: 36%;
+    float: right;
+    position: relative;
+    height: 100%;
+
+    & > .green_bg_container{
+      width: 797px;
+      height: 612px;
+      position: absolute;
+      overflow: hidden;
+      top: -110px;
+
+      & > .green_bg{
+        background-color: $green;
+        width: 166%;
+        height: 140%;
+        position: absolute;
+        z-index: -1;
+        transform: rotate(-65deg);
+      }
+    }
+  }
+}
+
+//seconda sezione
+.boolean_partners{
+  text-align: center;
+  width: 100%;
+  height: 194px;
+  padding: 40px;
+  color: white;
+
+  & > .logos{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 10px;
+    margin: 0 auto;
+    width: 70%;
+  }
+}

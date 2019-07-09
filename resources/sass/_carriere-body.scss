@@ -1,0 +1,30 @@
+.bg_blue{
+  & > h1{
+    font-size: 40px;
+  }
+
+  & > p{
+    margin-top: 10px;
+  }
+}
+
+.carriere{
+  background-color: #e8ebf1;
+
+  &>.container{
+    & > .left_content{
+      padding-top: 140px;
+      & > h1{
+        color: $blue_bg;
+      }
+    }
+
+    & > .right_content{
+      padding-top: 140px;
+      & > img{
+        width: 500px;
+        height: 350px;
+      }
+    }
+  }
+}
